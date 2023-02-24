@@ -33,7 +33,7 @@ const Home=()=>{
         
           <div className='box'>
                 <div className='child' on>
-                    <Badge badgeContent={count} color="info"  size="lg">
+                    <Badge badgeContent={count} color="success"  size="lg" anchorOrigin={{vertical: 'top',horizontal: 'left',}}>
                       <MailIcon color="action" />
                     </Badge>
                     <br></br>
